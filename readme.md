@@ -31,7 +31,7 @@ You are ready to run the application now. For those who want to run Postgress in
 
 * make sure you have docker installed and running
 * create a docker container
-    * `docker run --name-of-container -e POSTGRES_PASSWORD=yourPassword -d -p 5432:5432 postgres:alpine`
+    * `docker run --name name-of-container -e POSTGRES_PASSWORD=yourPassword -d -p 5432:5432 postgres:alpine`
         * `--name` naming your container
         * `-e` setting environment variables
         * `-d` run in detached mode
